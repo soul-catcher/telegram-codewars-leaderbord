@@ -37,7 +37,7 @@ async def echo_handler(message: types.Message) -> None:
         await message.answer("Nice try!")
 
 
-async def main() -> None:  # noqa: D103
+async def main() -> None:
     # Dispatcher is a root router
     dp = Dispatcher()
     # ... and all other routers should be attached to Dispatcher
