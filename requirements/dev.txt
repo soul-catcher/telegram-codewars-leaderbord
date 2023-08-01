@@ -1,5 +1,5 @@
 -r base.txt
 
-black == 23.3
+black == 23.7.0
 mypy == 1.2
 ruff == 0.0.263
